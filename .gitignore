@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+*.env
+
+# 本機資料（不上傳：股價、營收、法人、集保、官方資料包、帳本）
+local_data*/
+revenue_cache/
+esun_data/
+esun_inst/
+esun_tdcc/
+esun_state/
+esun_official/
+esun_targets/
+esun_reports/
+esun_logs/
+esun_docs/
+esun_code_archive/
+_research/bt_*/
+_research/rehearsal/
+_research/shadow_q3/*.csv
+_research/kfix_backup/
+_research/probe_nav/
+post_contest/data/
+post_contest/out/
+research/vcp_sector/data/
+research/vcp_sector/out/
+
+# 金鑰與個人設定
+anthropic_config.json
+esun_override.json
+run_daily.bat
+
+# 一般
+*.log
+*.db
+*.zip
+*.bak*
+*.xlsx
+*.docx
